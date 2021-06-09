@@ -28,8 +28,8 @@ public class Unit4Task4 {
             }
         }
         System.out.println();
-        if (even == true) {
-            System.out.print("Summa even elements over the side diagonal =" + sum);
+        if (even) {
+            System.out.print("Sum of even elements over the side diagonal =" + sum);
         } else {
             System.out.print("Even elements over the side diagonal do not exist");
         }
